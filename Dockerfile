@@ -1,9 +1,19 @@
+############################################################
+# Dockerfile to build Centos container images with Systemd
+# Based on Centos 7
+############################################################
+
 FROM centos:centos7
 
-MAINTAINER jkuetemeier@kuetemeier.net
+MAINTAINER Jörg Kütemeier <jkuetemeier@kuetemeier.net>
 
-RUN yum -y upgrade
-RUN yum install -y zsh git
+# Update RPM Packages
+RUN yum -y update && yum clean all
+
+# Install base tools
+RUN yum install -y zsh git && yum clean all
 
 RUN mkdir -p /opt
 RUN cd /opt; git clone https://github.com/jkuetemeier/pub-home.git; /opt/pub-home/bin/install-pub-home
+
+CMD /bin/zsh
