@@ -3,7 +3,7 @@
 # Based on Centos 7
 ############################################################
 
-FROM centos:centos7
+FROM centos:latest
 
 MAINTAINER Jörg Kütemeier <jkuetemeier@kuetemeier.net>
 
