@@ -1,5 +1,5 @@
 ############################################################
-# Dockerfile to build Centos container images with Systemd
+# Dockerfile to build Centos container base image
 # Based on Centos 7
 ############################################################
 
