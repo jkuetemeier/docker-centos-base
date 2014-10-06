@@ -18,6 +18,11 @@ Install `docker`, e.g. on CentOS: http://wiki.centos.org/Cloud/Docker
 
     docker run -it jkuetemeier/centos-base
 
+#### or build your own from this Dockerfile
+
+    docker build -t my-centos-base .
+    docker run -it my-centos-base
+
 ## What's in this container?
 
 Latest, official [CentOS 7 Docker](https://registry.hub.docker.com/_/centos/) container.
