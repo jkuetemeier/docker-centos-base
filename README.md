@@ -25,7 +25,7 @@ Latest, official [CentOS 7 Docker](https://registry.hub.docker.com/_/centos/) co
 ### This container include the following additional features
 
 - [deltarpm](https://gitorious.org/deltarpm) for faster updates
-- Bug-Workaround: fix broken sym-link /var/lock -> /var/run/lock in CentOS Base container
+- Bug-Workaround: fix broken sym-link /var/lock -> ../run/lock in CentOS Base container
 - [Zsh](http://www.zsh.org/) as additional shell
 - [Git](http://git-scm.com/) e.g. for cloning configuration files
 - [Vim](http://www.vim.org/) better editing, when you build and test your containers upon this one

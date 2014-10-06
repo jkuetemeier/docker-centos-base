@@ -7,7 +7,7 @@ FROM centos:centos7
 
 MAINTAINER Jörg Kütemeier <jkuetemeier@kuetemeier.net>
 
-# BUG? Workaround
+# BUG? Broken sym-link (/var/lock) workaround
 RUN mkdir -p /run/lock
 
 # Update RPM Packages
