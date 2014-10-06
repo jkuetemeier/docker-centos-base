@@ -7,6 +7,9 @@ FROM centos:centos7
 
 MAINTAINER Jörg Kütemeier <jkuetemeier@kuetemeier.net>
 
+# BUG? Workaround
+RUN mkdir -p /run/lock
+
 # Update RPM Packages
 RUN yum -y install deltarpm && yum -y update && yum clean all
 
