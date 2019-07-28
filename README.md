@@ -1,4 +1,4 @@
-# Docker [jkuetemeier/centos-base](https://registry.hub.docker.com/u/jkuetemeier/centos-base/)
+# Docker [kuetemeier/centos-base](https://registry.hub.docker.com/u/kuetemeier/centos-base/)
 
 CentOS 7 Docker base image with updates, Zsh, Git, Vim and ssmtp (mail)
 
@@ -12,11 +12,11 @@ Install `docker`, e.g. on CentOS: http://wiki.centos.org/Cloud/Docker
 
 #### Get pre compiled image
 
-    docker pull jkuetemeier/centos-base
+    docker pull kuetemeier/centos-base
 
 #### Run
 
-    docker run -it jkuetemeier/centos-base
+    docker run -it kuetemeier/centos-base
 
 #### or build your own from this Dockerfile
 
