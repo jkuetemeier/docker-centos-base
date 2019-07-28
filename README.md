@@ -1,3 +1,9 @@
+## Archived
+
+This project is archived.
+
+Meanwhile I would recommend you to use Docker in a completely different way. Have a look at https://wolfszwinkern.com to get the latest tips about Docker.
+
 # Docker [kuetemeier/centos-base](https://registry.hub.docker.com/u/kuetemeier/centos-base/)
 
 CentOS 7 Docker base image with updates, Zsh, Git, Vim and ssmtp (mail)
